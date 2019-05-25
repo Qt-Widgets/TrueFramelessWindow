@@ -26,7 +26,8 @@ win32 {
         qwinwidget.h \
         winnativewindow.h
 
-    LIBS += -L"C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib" \
+    LIBS +=  \
+        -luser32 \
         -ldwmapi \
         -lgdi32
 }
